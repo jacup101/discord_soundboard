@@ -22,20 +22,20 @@ A Discord bot that acts as a soundboard for your server :)
 - (Note: if the emote is custom, then the name must be equal to the emote's actual name for reactions to work properly)
 
 
-{
-  "list":
-  [
-    {
-      "name": "giraffle",
-      "emote": "<:giraffle:927087317137637387>",
-      "audio": "giraffe.mp3",
-      "limit": 25,
-      "image": "null",
-      "is_custom": "yes",
-      "is_singular": "yes",
-      "is_random": "no",
-      "random": [],
-      "description": "Giraffe"
-    }
-  ]
-}
+{\n
+  "list":\n
+  [\n
+    {\n
+      "name": "giraffle",\n
+      "emote": "<:giraffle:927087317137637387>",\n
+      "audio": "giraffe.mp3",\n
+      "limit": 25,\n
+      "image": "null",\n
+      "is_custom": "yes",\n
+      "is_singular": "yes",\n
+      "is_random": "no",\n
+      "random": [],\n
+      "description": "Giraffe"\n
+    }\n
+  ]\n
+}\n
