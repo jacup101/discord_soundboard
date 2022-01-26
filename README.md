@@ -20,6 +20,8 @@ A Discord bot that acts as a soundboard for your server :)
 # Use
 - To add an emote, simply add a JSON object to the list array in emote_to_mp3.json, as shown below:
 - (Note: if the emote is custom, then the name must be equal to the emote's actual name for reactions to work properly)
+
+
 {
   "list":
   [
