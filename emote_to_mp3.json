@@ -1,0 +1,17 @@
+{
+  "list":
+  [
+    {
+      "name": "giraffle",
+      "emote": "<:giraffle:927087317137637387>",
+      "audio": "giraffe.mp3",
+      "limit": 25,
+      "image": "null",
+      "is_custom": "yes",
+      "is_singular": "yes",
+      "is_random": "no",
+      "random": [],
+      "description": "Giraffe"
+    }
+  ]
+}
