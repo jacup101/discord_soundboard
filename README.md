@@ -14,3 +14,26 @@ A Discord bot that acts as a soundboard for your server :)
 # To be implemented
 - Bot currently can only read one emote from a message, can make it read all now that the queue is in place
 - Clean up code 😅
+- Stop being lazy and write the simple code to load token from ENV
+- Add more emote examples here
+
+# Use
+- To add an emote, simply add a JSON object to the list array in emote_to_mp3.json, as shown below:
+- (Note: if the emote is custom, then the name must be equal to the emote's actual name for reactions to work properly)
+{
+  "list":
+  [
+    {
+      "name": "giraffle",
+      "emote": "<:giraffle:927087317137637387>",
+      "audio": "giraffe.mp3",
+      "limit": 25,
+      "image": "null",
+      "is_custom": "yes",
+      "is_singular": "yes",
+      "is_random": "no",
+      "random": [],
+      "description": "Giraffe"
+    }
+  ]
+}
